@@ -1,0 +1,280 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins , sans-serif';
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 10%;
+    background-color: rgba(8, 8, 8, 0.904);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo{
+    font-size: 30px;
+    color: rgba(5, 113, 133, 0.938);
+    font-weight: 600;
+    transition: 0.10s ease;
+
+}
+
+
+.logo:hover{
+    color: blue;
+    text-shadow: blue,
+    0 0 25px blue;
+    transform: scale(1.1);
+
+}
+
+
+.navbar a{
+    font-size: 20px;
+    color: blue;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.30s ease;
+
+}
+
+.navbar a:hover,
+.navbar a.active{
+
+    color: blue;
+    border-bottom: 3px solid blue;
+
+}
+
+.contact{
+    padding: 10px 20px;
+    background-color: aqua;
+    color: black;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-bottom: 3px solid aqua;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.contact:hover{
+    background-color: rgb(55, 19, 153);
+    box-shadow: 0 0 25px blue;
+    
+}
+
+
+
+.Home{
+    width: 100%;
+    min-height: 100vh;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    gap: 4em;
+    padding: 150px 12% 0;
+}
+
+.Home-content{
+    max-width: 100px;
+
+}
+
+.Home-content h3{
+    font-size: 100px;
+}
+
+
+.Home-content h1{
+    font-size: 40px;
+    line-height: 1.3;
+    
+}
+
+.Home-content{
+    font-size: 20px;
+    margin: 25px 0 30px;
+    font-weight: 520;
+}
+
+
+.btn-box{
+    width: 300px;
+    display: flex;
+    gap: 3em;
+}
+
+
+.btn-1{
+    background-color: rgb(170, 192, 209);
+    padding: 15px 27px;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
+.btn-1:hover{
+    background-color: beige;
+    color: black;
+    border: 2px solid transparent;
+
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
+    width: 40px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    padding: 12% 8%;
+    gap:10em;
+    background-color: aqua;
+
+}
+
+
+
+
+
+.about-content p{
+    color: black;
+    font-size: 50px;
+    margin: 1em 0 3em;
+}
+
+
+.contact-form form{
+    max-width: 50em;
+    margin: 1 rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.contact-form h2{
+    text-align: flex;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 30px;
+}
+
+.contact-form form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-form form .input-box input,
+.contact-form form textarea{
+    width: 100%;
+    padding: 1.4em;
+    color: black;
+    font-size: 17px;
+    background-color: beige;
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize: none;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+    
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 24px;
+    color: rgb(119, 103, 54);
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.719);
+    border: 2px solid blue;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 45%;
+    box-shadow: inset 0 0 10px blue,
+    0 0 10px blue;
+    transition: 0.3s ease;
+}
+
+
+.footer .social a:hover{
+    transform: scale(1.2) translateY(-10px);
+    color: blue;
+    border: 2px solid transparent;
+}
+
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+
+}
+
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+
+
+
+
