@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Update Facebook profile picture without notifying everyone</title>
+	<link rel="icon" href="https://blogtimenow.com/wp-content/uploads/2014/06/new-logo-favicon.png" type="image/x-icon" />
+<!--iOS/android/handheld specific -->	
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" type="text/css" media="all" href="https://blogtimenow.com/wp-content/themes/blogtimenow/style.css" />
+	<link rel="pingback" href="https://blogtimenow.com/xmlrpc.php" />
+			<!--[if lt IE 9]>
+	<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<style type="text/css">
+body {background-color:#ffffff;}
+.nav-previous a:hover,.nav-next a:hover,#commentform input#submit,#searchform input[type="submit"],.home_menu_item,.secondary-navigation a:hover, .post-date-ribbon,.currenttext, .pagination a:hover,.readMore a,.mts-subscribe input[type="submit"] {background-color:#1B94D1; }
+#tabber .inside li .meta b,footer .widget li a:hover,.fn a,.reply a,#tabber .inside li div.info .entry-title a:hover, #navigation ul ul a:hover,.single_post a, a:hover, .textwidget a, #commentform a, #tabber .inside li a, .copyrights a:hover, a, .sidebar.c-4-12 a:hover, .top a:hover {color:#1B94D1; }
+.corner {border-color: transparent transparent #1B94D1 transparent;}
+.secondary-navigation, footer, .sidebar #searchform input[type="submit"]:hover, .readMore a:hover, #commentform input#submit:hover { background-color: #21282D; }
+.postauthor{border-top:4px solid #686C68;background-color:#EBF1F8;padding-top:20px;padding-bottom:35px;border-bottom:4px solid #686C68;}#disqus_thread{padding:20px;}.secondary-navigation a{font-size:16px;border-right:1px solid #EBF1F8}#content_box h3, .widget h3{line-height:30px;}.footer-widgets h3{padding:10px 0;font-size:24px;color:#4E4C4C;border-bottom:2px solid #5C5F2C;border-top:2px solid #5C5F2C}.single #content_box, .single_page{border-top:5px solid #364956;border-right:1px solid #364956;border-left:1px solid #364956;border-bottom:1px solid #364956;}.single_post .post-date-ribbon{margin-top:-37px;}P{font-size:16px; line-height:28px}.breadcrumb{font-size:15px;padding-bottom:20px;border-bottom:5px double #364956;margin-top:0}.corner{border-color:transparent transparent #548299}.single-title{font-size:35px;font-weight:100;}.title a{font-weight:100;color:#364956;}.postauthor img{border-radius:50px}.post-info{font-size:15px;padding-top:8px;}.post-content{font-size:16px;line-height:28px}.copyrights{padding-bottom:25px;padding-top:25px;}ol, ul{font-size:15px;line-height:26px;}#page{padding-top:65px;}.featured-thumbnail img{box-shadow:0 15px 6px -6px #5A5A5D}.post.excerpt{border-top:5px solid #364956;border-left:none;border-right:0;border-bottom:0;padding:15px;background-color:#fff;}#tabber .inside{padding:8px 0 15px;}#tabber .inside li .meta{line-height:18px;}#sidebars .wp-post-image{border:1px solid #424242}.page h1.title{font-size:38px;}h2{font-size:24px;letter-spacing:0;font-weight:300;}#header h1, #header h2{margin:0}.buton{color:#fff!important;background:#3498db;background-image:-webkit-linear-gradient(top,#3498db,#2980b9);background-image:-moz-linear-gradient(top,#3498db,#2980b9);background-image:-ms-linear-gradient(top,#3498db,#2980b9);background-image:-o-linear-gradient(top,#3498db,#2980b9);background-image:linear-gradient(to bottom,#3498db,#2980b9);-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;font-family:Arial;color:#fff;font-size:20px;padding:10px 20px;text-decoration:none}.buton:hover{color:#fff;background:#3cb0fd;background-image:-webkit-linear-gradient(top,#3cb0fd,#3498db);background-image:-moz-linear-gradient(top,#3cb0fd,#3498db);background-image:-ms-linear-gradient(top,#3cb0fd,#3498db);background-image:-o-linear-gradient(top,#3cb0fd,#3498db);background-image:linear-gradient(to bottom,#3cb0fd,#3498db);text-decoration:none}.ad-125{padding-left:15px;padding-right:15px;}.aboutus{font-size:15px;line-height:26px;color:#B1A6A6;}.widget li{color:#1B94D1;margin-left:0;}#searchform #s{font-size:15px}#searchform input[type="submit"]{height:40px}.sidebar.c-4-12 a{color:#224284}.sidebar input[type="submit"]{font-size:15px;width:29%;height:40px;background-color:#1B94D1;color:#fff;border:none;cursor:pointer;}.widgets-list-layout-links{width:82%}.sideborder{border:2px solid #364956;}.postsby{font-size:35px;text-align:center}#tabber ul.tabs li a{color:#484848;border-bottom:1px solid #364956;}#tabber .inside{border-bottom:5px solid #364956;border-left:1px solid #364956;border-right:1px solid #364956;}#tabber .tabs a.selected{border-color:#364956;}.post-date-ribbon{width:150px;line-height:20px;font-size:14px;margin-top:-15px;margin-left:-16px;height:23px;background-color:#364956}.readMore{display:none;}.pagination a, .pagination2{border:1px solid #364956}a{transition:none}.yarpp-related{background-color:#21282D;padding:25px 20px 1px;margin:0 -30px!important;color:#fff;}.yarpp-related h2{color:#323232;text-align:center;background-color:#5C5F2C;padding:10px;margin:-25px -20px 20px -19px;}.yarpp-related  a{color:rgba(116, 207, 237, 0.42);}footer .widget a{color:#808080}footer .widget a:hover{color:#fff!important}.top, #copyright-note a{color:#B1A6A6}.yarpp-related small{color:#B1A6A6}.soci{opacity:0.4}.soci:hover{opacity:1}.f-widget:hover h3{border-bottom:2px solid #B3AE2C;border-top:2px solid #B3AE2C;color:#A7A4A4;}.subboxh4{color:#21282D;background-color:#5C5F2C;padding:10px; margin: -10px; text-align: center;}.subbox:hover h4{background-color:#B3AE2C}.yarpp-related:hover h2{background-color:#B3AE2C;}body > footer{z-index:9999999}.yarpp-related:hover a{color:#74CFED;}.yarpp-related:hover a:hover{color:#D0D449;}.tagtext{font-weight:bold}.tags a{color:#FFF !important;background-color:#1B94D1;padding:3px 7px;line-height:30px;}
+.post-date-ribbon {
+    display: none;
+}
+.inpost1st{margin-bottom:180px;}
+.inpostmid{padding-bottom:20px;}</style>
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v25.8 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Whenever you update your Facebook profile picture it notifies everyone. Here is how to prevent Facebook from notifying everyone during updates." />
+	<link rel="canonical" href="https://blogtimenow.com/internet-tips-tricks/update-facebook-profile-picture-without-notifying-everyone/" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Sureyea" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="3 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://blogtimenow.com/internet-tips-tricks/update-facebook-profile-picture-without-notifying-everyone/","url":"https://blogtimenow.com/internet-tips-tricks/update-facebook-profile-picture-without-notifying-everyone/","name":"Update Facebook profile picture without notifying everyone","isPartOf":{"@id":"https://blogtimenow.com/#website"},"primaryImageOfPage":{"@id":"https://blogtimenow.com/internet-tips-tricks/update-facebook-profile-picture-without-notifying-everyone/#primaryimage"},"image":{"@id":"https://blogtimenow.com/internet-tips-tricks/update-facebook-profile-picture-without-notifying-everyone/#primaryimage"},"thumbnailUrl":"https://blogtimenow.com/wp-content/uploads/2014/06/hide-facebook-profile-picture-notification.jpg","datePublished":"2014-06-04T08:47:03+00:00","author":{"@id":"https://blogtimenow.com/#/schema/person/ddc6275539d81f0d1c494167aad469a6"},"description":"Whenever you update your Facebook profile picture it notifies everyone. Here is how to prevent Facebook from notifying everyone during updates.","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://blogtimenow.com/internet-tips-tricks/update-facebook-profile-picture-without-notifying-everyone/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://blogtimenow.com/internet-tips-tricks/update-facebook-profile-picture-without-notifying-everyone/#primaryimage","url":"https://blogtimenow.com/wp-content/uploads/2014/06/hide-facebook-profile-picture-notification.jpg","contentUrl":"https://blogtimenow.com/wp-content/uploads/2014/06/hide-facebook-profile-picture-notification.jpg","width":200,"height":200},{"@type":"WebSite","@id":"https://blogtimenow.com/#website","url":"https://blogtimenow.com/","name":"Blog time now","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://blogtimenow.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https://blogtimenow.com/#/schema/person/ddc6275539d81f0d1c494167aad469a6","name":"Sureyea","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://blogtimenow.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/0abadeaa1515431b23dc2d9307706e94faad4cbd87a60506f88d44cfe810def1?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/0abadeaa1515431b23dc2d9307706e94faad4cbd87a60506f88d44cfe810def1?s=96&d=mm&r=g","caption":"Sureyea"},"description":"Hi, I am Sureyea founder of this blog","sameAs":["https://blogtimenow.com","https://x.com/sureyea"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//static.addtoany.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Blog time now &raquo; Feed" href="https://blogtimenow.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog time now &raquo; Comments Feed" href="https://blogtimenow.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog time now &raquo; Update Facebook profile picture without notifying everyone Comments Feed" href="https://blogtimenow.com/internet-tips-tricks/update-facebook-profile-picture-without-notifying-everyone/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blogtimenow.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6d7aef9e5c41868172ad060014c6f7cd"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='GoogleFonts-css' href='https://fonts.googleapis.com/css?family=Monda%3Aregular%2Cbold&#038;v1&#038;ver=6.8.3' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://blogtimenow.com/wp-includes/css/dist/block-library/style.min.css?ver=6d7aef9e5c41868172ad060014c6f7cd' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='mediaelement-css' href='https://blogtimenow.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://blogtimenow.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6d7aef9e5c41868172ad060014c6f7cd' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css' type='text/css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='addtoany-css' href='https://blogtimenow.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16' type='text/css' media='all' />
+<style id='addtoany-inline-css' type='text/css'>
+@media screen and (max-width:980px){
+.a2a_floating_style.a2a_vertical_style{display:none;}
+}
+@media screen and (min-width:981px){
+.a2a_floating_style.a2a_default_style{display:none;}
+}
+</style>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.7.1" id="jquery-js"></script>
+<script type="text/javascript" id="addtoany-core-js-before">
+/* <![CDATA[ */
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+/* ]]> */
+</script>
+<script type="text/javascript" defer src="https://static.addtoany.com/menu/page.js" id="addtoany-core-js"></script>
+<script type="text/javascript" defer src="https://blogtimenow.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1" id="addtoany-jquery-js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js?ver=1.8.16" id="jquery-ui-js"></script>
+<script type="text/javascript" src="https://blogtimenow.com/wp-content/themes/blogtimenow/js/modernizr.min.js?ver=6d7aef9e5c41868172ad060014c6f7cd" id="modernizr-js"></script>
+<script type="text/javascript" src="https://blogtimenow.com/wp-content/themes/blogtimenow/js/customscript.js?ver=6d7aef9e5c41868172ad060014c6f7cd" id="customscript-js"></script>
+<link rel="https://api.w.org/" href="https://blogtimenow.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://blogtimenow.com/wp-json/wp/v2/posts/1709" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blogtimenow.com/xmlrpc.php?rsd" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://blogtimenow.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblogtimenow.com%2Finternet-tips-tricks%2Fupdate-facebook-profile-picture-without-notifying-everyone%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://blogtimenow.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblogtimenow.com%2Finternet-tips-tricks%2Fupdate-facebook-profile-picture-without-notifying-everyone%2F&#038;format=xml" />
+	<style>img#wpstats{display:none}</style>
+		<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Update Facebook profile picture without notifying everyone" />
+<meta property="og:url" content="https://blogtimenow.com/internet-tips-tricks/update-facebook-profile-picture-without-notifying-everyone/" />
+<meta property="og:description" content="Whenever you update your status or change your profile picture in Facebook the changes will be visible in your friends news feed which is not bad, but it is not good all the time. Updating your pro…" />
+<meta property="article:published_time" content="2014-06-04T08:47:03+00:00" />
+<meta property="article:modified_time" content="2014-06-04T08:47:03+00:00" />
+<meta property="og:site_name" content="Blog time now" />
+<meta property="og:image" content="https://blogtimenow.com/wp-content/uploads/2014/06/hide-facebook-profile-picture-notification.jpg" />
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:text:title" content="Update Facebook profile picture without notifying everyone" />
+<meta name="twitter:image" content="https://blogtimenow.com/wp-content/uploads/2014/06/hide-facebook-profile-picture-notification.jpg?w=144" />
+<meta name="twitter:card" content="summary" />
+
+<!-- End Jetpack Open Graph Tags -->
+</head>
+<body data-rsssl=1 id ="blog" class="wp-singular post-template-default single single-post postid-1709 single-format-standard wp-theme-blogtimenow main cat-11-id">
+	<header class="main-header">
+		<div class="container">
+			<div id="header">
+																<h2 id="logo">
+								<a href="https://blogtimenow.com"><img src="https://blogtimenow.com/wp-content/uploads/2014/07/logofix.png" alt="Blog time now"></a>
+							</h2><!-- END #logo -->
+													 <div class="widget-header">
+											            </div>             
+			</div><!--#header-->
+            <div class="secondary-navigation">
+				<nav id="navigation" >
+											<ul id="menu-main-menu" class="menu"><li id="menu-item-2001" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2001"><a href="https://blogtimenow.com/category/wordpress/">WordPress</a></li>
+<li id="menu-item-2002" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2002"><a href="https://blogtimenow.com/category/how-to/">How to</a></li>
+<li id="menu-item-2003" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2003"><a href="https://blogtimenow.com/category/blogging/">Blogging</a></li>
+<li id="menu-item-2004" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-2004"><a href="https://blogtimenow.com/category/internet-tips-tricks/">Tips &#038; Tricks</a></li>
+<li id="menu-item-2005" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2005"><a href="https://blogtimenow.com/category/seo/">SEO</a></li>
+<li id="menu-item-2006" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2006"><a href="https://blogtimenow.com/category/social-media/">Social Media</a></li>
+<li id="menu-item-2007" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2007"><a href="https://blogtimenow.com/category/free-lists/">Free Lists</a></li>
+</ul>									</nav>
+			</div>
+		</div><!--.container-->        
+	</header>
+	<div class="main-container"><div id="page" class="single">
+	<div class="content">
+		<article class="article">
+			<div id="content_box" >
+									<div id="post-1709" class="g post post-1709 type-post status-publish format-standard has-post-thumbnail hentry category-internet-tips-tricks tag-facebook tag-facebook-profile-picture tag-hide-facebook-photos cat-11-id has_thumb">
+						<div class="single_post">
+															<div class="breadcrumb"><a href="https://blogtimenow.com" rel="nofollow">Home</a>&nbsp;&nbsp;&#187;&nbsp;&nbsp;<a href="https://blogtimenow.com/category/internet-tips-tricks/" rel="nofollow">Tips &amp; Tricks</a> &nbsp;&nbsp;&#187;&nbsp;&nbsp; Update Facebook profile picture without notifying everyone</div>
+														<header>
+								<h1 class="title single-title">Update Facebook profile picture without notifying everyone</h1>
+								<span class="theauthor single-postmeta">Posted in <a href="https://blogtimenow.com/category/internet-tips-tricks/" rel="nofollow">Tips &amp; Tricks</a> By <a rel="nofollow" href="https://blogtimenow.com/author/suriyaprakash/" title="Posts by Sureyea" rel="author">Sureyea</a></span>
+							</header><!--.headline_area-->
+							<div class="post-single-content box mark-links">
+								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- blogtimenow text ads only -->
+<ins class="adsbygoogle inpost1st"
+     style="display:block;height: 240px;"
+     data-ad-client="ca-pub-2936022295085420"
+     data-ad-slot="6986074123"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script><p><img decoding="async" class="alignright" src="https://blogtimenow.com/wp-content/uploads/2014/06/hide-facebook-profile-picture-notification.jpg" alt="How to update Facebook profile picture without notifying everyone" width="200" height="200" />Whenever you update your status or change your profile picture in Facebook the changes will be visible in your friends news feed which is not bad, but it is not good all the time. Updating your profile information especially unimportant information like adding hometown or adding some personal life event in Facebook should not be public on all occasions. At sometimes you would like to keep things low and don’t like such big announcements, if it is so then here is how to stop Facebook from notifying everyone.</p>
+<p>You may be a person who often change profile pictures for various reasons which annoys your friends who see it on their timeline. Facebook provides some <a href="https://blogtimenow.com/social-media/facebook-privacy-settings-guide-tips/" target="_blank">strict privacy settings</a> for you to hide several things from showing it to the world. Here is <a href="https://blogtimenow.com/social-media/hide-facebook-friends-list-public-friends/" target="_blank">how you hide your friends list from public </a>and here is<a href="https://blogtimenow.com/social-media/hide-facebook-posts-friends-public-family/" target="_blank"> how to hide your Facebook posts from public and friends</a>. So how about hiding profile picture notifications in Facebook? There is no actual setting to hide profile picture notifications, but here is a simple solution to update Facebook profile picture without notifying everyone.</p>
+<p><strong>Also read:</strong><a href="https://blogtimenow.com/internet-tips-tricks/download-facebook-photo-albums/" target="_blank"> How to download Facebook photo albums</a></p>
+<p><img fetchpriority="high" decoding="async" class="aligncenter" src="https://blogtimenow.com/images/hide-facebook-profile-picture-notification3.jpg" alt="How to hide Facebook profile picture notifications, stop announcements" width="458" height="269" /></p>
+<h3><strong><span style="color: #325ba3;">Update Facebook profile picture without announcing your friends</span></strong></h3>
+<p>You can stop two things that is the notification that your friends see on their timeline whenever you change your profile picture and hiding your profile picture that is preventing public or friends from enlarging the profile picture.</p><div class="uglpsWG9"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle inpostmid"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2936022295085420"
+     data-ad-slot="9653488118"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<p><img decoding="async" class="aligncenter" src="https://blogtimenow.com/images/hide-facebook-profile-picture-notification2.jpg" alt="How to update Facebook profile picture without notifying friends" width="481" height="182" /></p>
+<p>First update your profile picture as you would normally do that is go to your profile page and then add a profile photo or update profile picture. After choosing your photo and cropping it, you will see an option like stop notifications at your right side which has nothing to do with. This stop notification option will only stop you from getting notifications that is when someone likes or comments on your profile picture, but not your friends.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter" src="https://blogtimenow.com/images/hide-facebook-profile-picture-notification5.jpg" alt="Stop notifications in Facebook profile picture, Change picture without showing it" width="459" height="235" /></p>
+<p>So to stop notifying your friends about the profile picture update, go to your timeline immediately after changing your profile picture or view your activity log. You will then see your own picture saying you have changed your profile picture. Just drop down the post at the top right corner and then select hide from timeline which then hides the profile picture from your timeline and your friend’s timeline.  You can go on with this method whenever you think of updating profile picture without notifying or annoying your friends. Anyhow they can still see that your new profile picture changed and they can like it, share it or comment on it. How to prevent those activities? You can do that by making your profile picture private.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter" src="https://blogtimenow.com/images/hide-facebook-profile-picture-notification4.jpg" alt="Changing Facebook profile picture without notifying anyone" width="371" height="194" /></p>
+<p>Preventing public or friends from enlarging your profile picture that is making your profile picture unclickable or making your profile picture private is simple.  Just view your profile picture, drop down the public option at the top corner and then select it to “only me” or you can choose custom settings. That’s it now your friends or public can’t enlarge your photo, can’t like your photo and can’t share your photo.</p>
+<p><img loading="lazy" decoding="async" class="aligncenter" src="https://blogtimenow.com/images/hide-facebook-profile-picture-notification6.jpg" alt="Hiding Facebook profile picture, Changing it without notifying friends" width="380" height="195" /></p>
+<p>In a same way you can hide your cover photo notifications from your friend’s timeline, but not the cover photo, may be Facebook should add this option in feature.</p>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-2936022295085420"
+     data-ad-slot="1127361291"
+	 data-matched-content-ui-type="image_stacked"
+     data-matched-content-rows-num="2"
+     data-matched-content-columns-num="3"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></p><div class='yarpp yarpp-related yarpp-related-website yarpp-template-list'>
+<!-- YARPP List -->
+<h2>Related Posts</h2><ol>
+<li><a href="https://blogtimenow.com/how-to/export-facebook-friends-birthdays-calendar-ical-excel/" rel="bookmark" title="Export Facebook friends birthdays to Google calendar, iCal and Excel">Export Facebook friends birthdays to Google calendar, iCal and Excel</a> <small>Facebook is a widest network in the world connecting each other. Making a birthday wishes has become more popular in Facebook. If any of your Friends has a birthday you...</small></li>
+<li><a href="https://blogtimenow.com/how-to/embed-facebook-videos-website/" rel="bookmark" title="How to embed Facebook videos in your website – WordPress and Blogger">How to embed Facebook videos in your website – WordPress and Blogger</a> <small>We have shared the importance of both article marketing as well as video marketing. When compared to texts and images, videos are really great in conveying a message. It transmits...</small></li>
+<li><a href="https://blogtimenow.com/social-media/hide-facebook-posts-friends-public-family/" rel="bookmark" title="How to hide Facebook posts from certain people (Public, family, Boss)">How to hide Facebook posts from certain people (Public, family, Boss)</a> <small>Most of the Facebook users including me don’t’ like to share their personal information to the whole world. Facebook is a wide network with billions of users that connects us...</small></li>
+<li><a href="https://blogtimenow.com/internet-tips-tricks/download-facebook-photo-albums/" rel="bookmark" title="Free tools and extensions to download Facebook photo albums">Free tools and extensions to download Facebook photo albums</a> <small>Majority of people on internet visit Facebook at least once in a week just to check their timeline and to stay in touch with their friends, family etc. Some update...</small></li>
+</ol>
+</div>
+																									<div class="tags"><span class="tagtext">Tags:</span><a href="https://blogtimenow.com/tag/facebook/" rel="tag">Facebook</a>, <a href="https://blogtimenow.com/tag/facebook-profile-picture/" rel="tag">Facebook profile picture</a>, <a href="https://blogtimenow.com/tag/hide-facebook-photos/" rel="tag">Hide Facebook photos</a></div>
+															</div>
+						</div><!--.post-content box mark-links-->
+						  
+						  
+					</div><!--.g post-->
+					
+<div id="disqus_thread"></div>
+							</div>
+		</article>
+		<aside class="sidebar c-4-12">
+	<div id="sidebars" class="g">
+		<div class="sidebar">
+			<ul class="sidebar_list">
+						
+
+	<div id="tabber">
+			
+		<ul class="tabs">
+			<li><a href="#popular-posts">Popular Posts</a></li>
+			<li class="tab-recent-posts"><a href="#recent-posts">Recent Posts</a></li>
+		</ul> <!--end .tabs-->
+			
+		<div class="clear"></div>
+		
+		<div class="inside">
+			<div id="popular-posts">
+				<ul>
+										<li>
+<div class="left">
+<a href='https://blogtimenow.com/blogging/create-blogger-sitemap/'><img src="https://blogtimenow.com/wp-content/uploads/2013/10/blogger-sitemap.jpg" alt="How to create sitemap for Blogger blog – Blogger sitemap XML"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="How to create sitemap for Blogger blog – Blogger sitemap XML" href="https://blogtimenow.com/blogging/create-blogger-sitemap/"> A Sitemap is nothing but a list of accessible</a></p>
+	<div class="meta">
+    June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+<li>
+<div class="left">
+<a href='https://blogtimenow.com/blogging/setup-nrelate-related-posts-linkwithin-alternative/'><img src="https://blogtimenow.com/wp-content/uploads/2013/11/2013-11-13_131819.jpg" alt="Setup nRelate related posts widget in Blogger –LinkWithin alternative"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="Setup nRelate related posts widget in Blogger –LinkWithin alternative" href="https://blogtimenow.com/blogging/setup-nrelate-related-posts-linkwithin-alternative/"> As you all know internal linking is more beneficial</a></p>
+	<div class="meta">
+    June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+<li>
+<div class="left">
+<a href='https://blogtimenow.com/blogging/add-related-posts-blogger-related-posts-widget-blogger/'><img src="https://blogtimenow.com/wp-content/uploads/2013/10/blogger.jpg" alt="How to add related posts to Blogger – Related posts widget for Blogger"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="How to add related posts to Blogger – Related posts widget for Blogger" href="https://blogtimenow.com/blogging/add-related-posts-blogger-related-posts-widget-blogger/"> Blogging is a one nice way to help peoples.</a></p>
+	<div class="meta">
+    June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+<li>
+<div class="left">
+<a href='https://blogtimenow.com/blogging/create-add-custom-robots-txt-file-blogger-crawl-index/'><img src="https://blogtimenow.com/wp-content/uploads/2013/11/custom-robots.txt-file-blogger.jpg" alt="Create &#038; add custom robots.txt file in Blogger – Crawl &#038; index"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="Create &#038; add custom robots.txt file in Blogger – Crawl &#038; index" href="https://blogtimenow.com/blogging/create-add-custom-robots-txt-file-blogger-crawl-index/"> Have you ever heard the name robots.txt or have</a></p>
+	<div class="meta">
+    June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+				</ul>			
+		    </div> <!--end #popular-posts-->
+		    <div id="recent-posts"> 
+		        <ul>
+					<li>
+<div class="left">
+<a href='https://blogtimenow.com/internet-marketing/receive-emails-gmail-primary-inbox-handling-gmail-tabs/'><img src="https://blogtimenow.com/wp-content/uploads/2014/08/gmail-primary-tab-inbox.jpg" alt="How to receive emails in Gmail primary inbox – Handling Gmail tabs"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="How to receive emails in Gmail primary inbox – Handling Gmail tabs" href="https://blogtimenow.com/internet-marketing/receive-emails-gmail-primary-inbox-handling-gmail-tabs/">Have you subscribed to any email newsletters and not</a></p>
+	<div class="meta">
+   June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+<li>
+<div class="left">
+<a href='https://blogtimenow.com/how-to/fix-feedburner-feed-double-titles-issue/'><img src="https://blogtimenow.com/wp-content/uploads/2014/08/feedburner-double-title.jpg" alt="How to fix Feedburner feed double titles issue – Quick tip"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="How to fix Feedburner feed double titles issue – Quick tip" href="https://blogtimenow.com/how-to/fix-feedburner-feed-double-titles-issue/">Most of the wordpress users syndicate their RSS feeds</a></p>
+	<div class="meta">
+   June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+<li>
+<div class="left">
+<a href='https://blogtimenow.com/html-css/understaning-css-selectors-beginners/'><img src="https://blogtimenow.com/wp-content/uploads/2014/08/css-selectors.jpg" alt="Understaning CSS selectors for beginners &#8211; ‘>’, ‘+’ and ‘~’ symbols"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="Understaning CSS selectors for beginners &#8211; ‘>’, ‘+’ and ‘~’ symbols" href="https://blogtimenow.com/html-css/understaning-css-selectors-beginners/">CSS is an absolute website beautifier, with Cascading Style</a></p>
+	<div class="meta">
+   June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+<li>
+<div class="left">
+<a href='https://blogtimenow.com/blogging/recover-deleted-blog-post-blogger/'><img src="https://blogtimenow.com/wp-content/uploads/2014/07/recover-deleted-blogger-post.jpg" alt="How to recover deleted blog post on Blogger &#8211; draft, published post"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="How to recover deleted blog post on Blogger &#8211; draft, published post" href="https://blogtimenow.com/blogging/recover-deleted-blog-post-blogger/">If you are a sincere Blogger then you will</a></p>
+	<div class="meta">
+   June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+                      
+				</ul>	
+		    </div> <!--end #recent-posts-->			
+			<div class="clear"></div>			
+		</div> <!--end .inside -->
+		<div class="clear"></div>
+	</div><!--end #tabber -->
+
+		<li class="widget widget-sidebar" id="search-5"><form method="get" id="searchform" class="search-form" action="https://blogtimenow.com" _lpchecked="1">
+	<fieldset>
+		<input type="text" name="s" id="s" value="Search this site..." onblur="if (this.value == '') {this.value = 'Search this site...';}" onfocus="if (this.value == 'Search this site...') {this.value = '';}" >
+		<input type="submit" value="Search" onclick="if(this.value=='Search this Site...')this.value='';" />
+	</fieldset>
+</form></li><li class="widget widget-sidebar" id="text-10">			<div class="textwidget"><div class="subbox" style="padding: 10px; color: rgb(255, 255, 255); background-color: #21282D; border-radius:4px;"><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=BlogTimeNow', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><h4 class="subboxh4">Join over 27.4k Subscribers</h4><p style="color:#B1A6A6;padding-top:20px">Subscribe to our blog feeds and receive high quality resources daily. No spam!</p><p><input id="s" type="text" style="height:18px" name="email" placeholder="Enter Your Email Address"/><input type="hidden" value="BlogTimeNow" name="uri"/><input id="S" type="submit" value="Subscribe"/></P></form>
+
+<a href="http://facebook.com/blogtimenow" rel="nofollow" target="_blank"><img class="soci" style="width: 52px;" src="https://blogtimenow.com/wp-content/uploads/2014/06/rsz_facebook.png" title="Facebook"></a>
+<a href="https://plus.google.com/u/0/b/103580833761087808296/103580833761087808296/" rel="nofollow" target="_blank"><img class="soci" style="width: 52px;" src="https://blogtimenow.com/wp-content/uploads/2014/06/rsz_google-.png" title="Google Plus"></a>
+<a href="https://twitter.com/BlogTimeNow" rel="nofollow" target="_blank"><img class="soci" style="width: 52px;" src="https://blogtimenow.com/wp-content/uploads/2014/06/rsz_twittwer_bird.png" title="Twitter"></a>
+<a href="http://blogtimenow.tumblr.com/" rel="nofollow" target="_blank"><img class="soci" style="width: 52px;" src="https://blogtimenow.com/wp-content/uploads/2014/06/rsz_tumblr.png" title="Tumblr"></a>
+<a href="http://feeds.feedburner.com/blogtimenow" rel="nofollow" target="_blank"><img class="soci" style="width: 52px;" src="https://blogtimenow.com/wp-content/uploads/2014/06/rsz_rss.png" title="Blog Feeds"></a></div></div>
+		</li><li class="widget widget-sidebar" id="text-11">			<div class="textwidget"><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fblogtimenow&amp;width=300&amp;height=220&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=507840319344711" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:220px;" allowTransparency="true"></iframe></div>
+		</li>		
+
+	<div id="tabber">
+			
+		<ul class="tabs">
+			<li><a href="#popular-posts">Popular Posts</a></li>
+			<li class="tab-recent-posts"><a href="#recent-posts">Recent Posts</a></li>
+		</ul> <!--end .tabs-->
+			
+		<div class="clear"></div>
+		
+		<div class="inside">
+			<div id="popular-posts">
+				<ul>
+										<li>
+<div class="left">
+<a href='https://blogtimenow.com/blogging/create-blogger-sitemap/'><img src="https://blogtimenow.com/wp-content/uploads/2013/10/blogger-sitemap.jpg" alt="How to create sitemap for Blogger blog – Blogger sitemap XML"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="How to create sitemap for Blogger blog – Blogger sitemap XML" href="https://blogtimenow.com/blogging/create-blogger-sitemap/"> A Sitemap is nothing but a list of accessible</a></p>
+	<div class="meta">
+    June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+<li>
+<div class="left">
+<a href='https://blogtimenow.com/blogging/setup-nrelate-related-posts-linkwithin-alternative/'><img src="https://blogtimenow.com/wp-content/uploads/2013/11/2013-11-13_131819.jpg" alt="Setup nRelate related posts widget in Blogger –LinkWithin alternative"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="Setup nRelate related posts widget in Blogger –LinkWithin alternative" href="https://blogtimenow.com/blogging/setup-nrelate-related-posts-linkwithin-alternative/"> As you all know internal linking is more beneficial</a></p>
+	<div class="meta">
+    June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+<li>
+<div class="left">
+<a href='https://blogtimenow.com/blogging/add-related-posts-blogger-related-posts-widget-blogger/'><img src="https://blogtimenow.com/wp-content/uploads/2013/10/blogger.jpg" alt="How to add related posts to Blogger – Related posts widget for Blogger"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="How to add related posts to Blogger – Related posts widget for Blogger" href="https://blogtimenow.com/blogging/add-related-posts-blogger-related-posts-widget-blogger/"> Blogging is a one nice way to help peoples.</a></p>
+	<div class="meta">
+    June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+<li>
+<div class="left">
+<a href='https://blogtimenow.com/blogging/create-add-custom-robots-txt-file-blogger-crawl-index/'><img src="https://blogtimenow.com/wp-content/uploads/2013/11/custom-robots.txt-file-blogger.jpg" alt="Create &#038; add custom robots.txt file in Blogger – Crawl &#038; index"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="Create &#038; add custom robots.txt file in Blogger – Crawl &#038; index" href="https://blogtimenow.com/blogging/create-add-custom-robots-txt-file-blogger-crawl-index/"> Have you ever heard the name robots.txt or have</a></p>
+	<div class="meta">
+    June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+				</ul>			
+		    </div> <!--end #popular-posts-->
+		    <div id="recent-posts"> 
+		        <ul>
+					<li>
+<div class="left">
+<a href='https://blogtimenow.com/internet-marketing/receive-emails-gmail-primary-inbox-handling-gmail-tabs/'><img src="https://blogtimenow.com/wp-content/uploads/2014/08/gmail-primary-tab-inbox.jpg" alt="How to receive emails in Gmail primary inbox – Handling Gmail tabs"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="How to receive emails in Gmail primary inbox – Handling Gmail tabs" href="https://blogtimenow.com/internet-marketing/receive-emails-gmail-primary-inbox-handling-gmail-tabs/">Have you subscribed to any email newsletters and not</a></p>
+	<div class="meta">
+   June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+<li>
+<div class="left">
+<a href='https://blogtimenow.com/how-to/fix-feedburner-feed-double-titles-issue/'><img src="https://blogtimenow.com/wp-content/uploads/2014/08/feedburner-double-title.jpg" alt="How to fix Feedburner feed double titles issue – Quick tip"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="How to fix Feedburner feed double titles issue – Quick tip" href="https://blogtimenow.com/how-to/fix-feedburner-feed-double-titles-issue/">Most of the wordpress users syndicate their RSS feeds</a></p>
+	<div class="meta">
+   June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+<li>
+<div class="left">
+<a href='https://blogtimenow.com/html-css/understaning-css-selectors-beginners/'><img src="https://blogtimenow.com/wp-content/uploads/2014/08/css-selectors.jpg" alt="Understaning CSS selectors for beginners &#8211; ‘>’, ‘+’ and ‘~’ symbols"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="Understaning CSS selectors for beginners &#8211; ‘>’, ‘+’ and ‘~’ symbols" href="https://blogtimenow.com/html-css/understaning-css-selectors-beginners/">CSS is an absolute website beautifier, with Cascading Style</a></p>
+	<div class="meta">
+   June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+<li>
+<div class="left">
+<a href='https://blogtimenow.com/blogging/recover-deleted-blog-post-blogger/'><img src="https://blogtimenow.com/wp-content/uploads/2014/07/recover-deleted-blogger-post.jpg" alt="How to recover deleted blog post on Blogger &#8211; draft, published post"  width='65' height='50' class="wp-post-image" /></a>
+<div class="clear"></div>
+</div>
+ 	<div class="info">
+ 	<p class="entry-title"><a title="How to recover deleted blog post on Blogger &#8211; draft, published post" href="https://blogtimenow.com/blogging/recover-deleted-blog-post-blogger/">If you are a sincere Blogger then you will</a></p>
+	<div class="meta">
+   June 04, 2014 <span>-</span><b><span class="dsq-postid" data-dsqidentifier="1709 https://blogtimenow.com/?p=1709">1</span></b>  Comments
+	</div> <!--end .entry-meta--> 	
+	</div> <!--end .info-->
+	<div class="clear"></div>
+</li>
+
+                      
+				</ul>	
+		    </div> <!--end #recent-posts-->			
+			<div class="clear"></div>			
+		</div> <!--end .inside -->
+		<div class="clear"></div>
+	</div><!--end #tabber -->
+
+		<li class="widget widget-sidebar" id="text-6"><h3>Free SEO Tools</h3>			<div class="textwidget"></div>
+		</li>			</ul>
+		</div>
+	</div><!--sidebars-->
+</aside>	</div><!--#page-->
+</div><!--.container-->
+</div>
+	<footer>
+		<div class="container">
+			<div class="footer-widgets">
+					<div class="f-widget f-widget-1">
+		<div class="widget" id="text-9"><h3>About Us</h3>			<div class="textwidget"><div class="aboutus">Hi, Welcome to blogtimenow.com, a blog and a community based website that mainly focuses on providing quality articles and inspirational stuff constantly to users which is founded on July 2013 by Sureyea. This weblog is dedicated for designers, developers, bloggers, internet marketers, web and computer enthusiasts.</div></div>
+		</div><div class="widget" id="text-8">			<div class="textwidget"><a href="http://facebook.com/blogtimenow" rel="nofollow" target="_blank"><img class ="soci" src="https://blogtimenow.com/wp-content/uploads/2014/06/rsz_facebook.png" title="Facebook"></a>
+<a href="https://plus.google.com/u/0/b/103580833761087808296/103580833761087808296/" rel="nofollow" target="_blank"><img class="soci" src="https://blogtimenow.com/wp-content/uploads/2014/06/rsz_google-.png" title="Google Plus"></a>
+<a href="https://twitter.com/BlogTimeNow" rel="nofollow" target="_blank"><img class="soci" src="https://blogtimenow.com/wp-content/uploads/2014/06/rsz_twittwer_bird.png" title="Twitter"></a>
+<a href="http://blogtimenow.tumblr.com/" rel="nofollow" target="_blank"><img class="soci" src="https://blogtimenow.com/wp-content/uploads/2014/06/rsz_tumblr.png" title="Tumblr"></a>
+<a href="http://feeds.feedburner.com/blogtimenow" rel="nofollow" target="_blank"><img class="soci" src="https://blogtimenow.com/wp-content/uploads/2014/06/rsz_rss.png" title="Blog Feeds"></a></div>
+		</div>	</div>
+	<div class="f-widget f-widget-2">
+		
+		<div class="widget" id="recent-posts-3">
+		<h3>Recent Articles</h3>
+		<ul>
+											<li>
+					<a href="https://blogtimenow.com/internet-marketing/receive-emails-gmail-primary-inbox-handling-gmail-tabs/">How to receive emails in Gmail primary inbox – Handling Gmail tabs</a>
+									</li>
+											<li>
+					<a href="https://blogtimenow.com/how-to/fix-feedburner-feed-double-titles-issue/">How to fix Feedburner feed double titles issue – Quick tip</a>
+									</li>
+											<li>
+					<a href="https://blogtimenow.com/html-css/understaning-css-selectors-beginners/">Understaning CSS selectors for beginners &#8211; ‘>’, ‘+’ and ‘~’ symbols</a>
+									</li>
+											<li>
+					<a href="https://blogtimenow.com/blogging/recover-deleted-blog-post-blogger/">How to recover deleted blog post on Blogger &#8211; draft, published post</a>
+									</li>
+											<li>
+					<a href="https://blogtimenow.com/wordpress/customize-scrollbar-style-wordpress-using-css/">How to customize scrollbar style in wordpress using CSS</a>
+									</li>
+					</ul>
+
+		</div>	</div>
+	<div class="f-widget last">
+		<div class="widget" id="pages-2"><h3>Site Links</h3>
+			<ul>
+				<li class="page_item page-item-1834"><a href="https://blogtimenow.com/us/">About Us</a></li>
+<li class="page_item page-item-571"><a href="https://blogtimenow.com/comment-policy/">Comment Policy</a></li>
+<li class="page_item page-item-563"><a href="https://blogtimenow.com/contact/">Contact Our Team</a></li>
+<li class="page_item page-item-966"><a href="https://blogtimenow.com/privacy-policy/">Privacy Policy</a></li>
+<li class="page_item page-item-1896"><a href="https://blogtimenow.com/suggest-tips/">Suggest Us (or) Submit Tips</a></li>
+<li class="page_item page-item-1839"><a href="https://blogtimenow.com/terms/">Terms and conditions</a></li>
+			</ul>
+
+			</div><div class="widget" id="search-2"><form method="get" id="searchform" class="search-form" action="https://blogtimenow.com" _lpchecked="1">
+	<fieldset>
+		<input type="text" name="s" id="s" value="Search this site..." onblur="if (this.value == '') {this.value = 'Search this site...';}" onfocus="if (this.value == 'Search this site...') {this.value = '';}" >
+		<input type="submit" value="Search" onclick="if(this.value=='Search this Site...')this.value='';" />
+	</fieldset>
+</form></div>	</div>
+			</div><!--.footer-widgets-->
+		</div><!--.container-->
+        <div class="copyrights"><!--start copyrights-->
+<div class="row" id="copyright-note">
+<span><a href="https://blogtimenow.com/" title="">Blog time now</a> Copyright &copy; 2025.</span>
+<div class="top"><strong>All Rights Reserved</strong>
+Reproducing content and other materials without explicit permission is strictly prohibited. <a href="#top" class="toplink">Back to Top &uarr;</a></div>
+</div>
+<!--end copyrights-->
+</div> 
+	</footer><!--footer-->
+<!--start footer code-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43561071-1', 'auto');
+  ga('send', 'pageview');
+
+</script><!--end footer code-->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/blogtimenow\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="left:-2px;top:290px;background-color:transparent"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblogtimenow.com%2Finternet-tips-tricks%2Fupdate-facebook-profile-picture-without-notifying-everyone%2F&amp;linkname=Update%20Facebook%20profile%20picture%20without%20notifying%20everyone" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblogtimenow.com%2Finternet-tips-tricks%2Fupdate-facebook-profile-picture-without-notifying-everyone%2F&amp;linkname=Update%20Facebook%20profile%20picture%20without%20notifying%20everyone" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_tumblr" href="https://www.addtoany.com/add_to/tumblr?linkurl=https%3A%2F%2Fblogtimenow.com%2Finternet-tips-tricks%2Fupdate-facebook-profile-picture-without-notifying-everyone%2F&amp;linkname=Update%20Facebook%20profile%20picture%20without%20notifying%20everyone" title="Tumblr" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div><div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style" style="bottom:0px;right:0px;background-color:transparent"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fblogtimenow.com%2Finternet-tips-tricks%2Fupdate-facebook-profile-picture-without-notifying-everyone%2F&amp;linkname=Update%20Facebook%20profile%20picture%20without%20notifying%20everyone" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fblogtimenow.com%2Finternet-tips-tricks%2Fupdate-facebook-profile-picture-without-notifying-everyone%2F&amp;linkname=Update%20Facebook%20profile%20picture%20without%20notifying%20everyone" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_tumblr" href="https://www.addtoany.com/add_to/tumblr?linkurl=https%3A%2F%2Fblogtimenow.com%2Finternet-tips-tricks%2Fupdate-facebook-profile-picture-without-notifying-everyone%2F&amp;linkname=Update%20Facebook%20profile%20picture%20without%20notifying%20everyone" title="Tumblr" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div><link rel='stylesheet' id='yarppRelatedCss-css' href='https://blogtimenow.com/wp-content/plugins/yet-another-related-posts-plugin/style/related.css?ver=5.30.11' type='text/css' media='all' />
+<script type="text/javascript" src="https://blogtimenow.com/wp-includes/js/comment-reply.min.js?ver=6d7aef9e5c41868172ad060014c6f7cd" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" id="disqus_count-js-extra">
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"blogtimenow"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://blogtimenow.com/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.1.3" id="disqus_count-js"></script>
+<script type="text/javascript" id="disqus_embed-js-extra">
+/* <![CDATA[ */
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.1.3 6.8.3"},"disqusIdentifier":"1709 https:\/\/blogtimenow.com\/?p=1709","disqusShortname":"blogtimenow","disqusTitle":"Update Facebook profile picture without notifying everyone","disqusUrl":"https:\/\/blogtimenow.com\/internet-tips-tricks\/update-facebook-profile-picture-without-notifying-everyone\/","postId":"1709"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://blogtimenow.com/wp-content/plugins/disqus-comment-system/public/js/comment_embed.js?ver=3.1.3" id="disqus_embed-js"></script>
+<script type="text/javascript" id="q2w3_fixed_widget-js-extra">
+/* <![CDATA[ */
+var q2w3_sidebar_options = [{"sidebar":"sidebar-1","use_sticky_position":false,"margin_top":0,"margin_bottom":0,"stop_elements_selectors":"","screen_max_width":0,"screen_max_height":0,"widgets":["#text-6"]}];
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://blogtimenow.com/wp-content/plugins/q2w3-fixed-widget/js/frontend.min.js?ver=6.2.3" id="q2w3_fixed_widget-js"></script>
+<script type="text/javascript" id="jetpack-stats-js-before">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"212236378\",\"post\":\"1709\",\"tz\":\"5.5\",\"srv\":\"blogtimenow.com\",\"j\":\"1:14.9.1\"}") ]);
+_stq.push([ "clickTrackerInit", "212236378", "1709" ]);
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://stats.wp.com/e-202540.js" id="jetpack-stats-js" defer="defer" data-wp-strategy="defer"></script>
+</body>
+</html>
