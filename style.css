@@ -58,7 +58,7 @@
 
 }
 
-.contact{
+.contact-btn{
     padding: 10px 20px;
     background-color: aqua;
     color: black;
@@ -70,7 +70,7 @@
     transition: 0.3s ease;
 }
 
-.contact:hover{
+.contact-btn:hover{
     background-color: rgb(55, 19, 153);
     box-shadow: 0 0 25px blue;
     
@@ -162,10 +162,6 @@
 
 }
 
-
-
-
-
 .about-content p{
     color: black;
     font-size: 50px;
@@ -185,6 +181,7 @@
     margin-top: 3em;
     margin-bottom: 1em;
     font-size: 30px;
+    margin-left: 600px;
 }
 
 .contact-form form .input-box{
@@ -194,7 +191,7 @@
 }
 .contact-form form .input-box input,
 .contact-form form textarea{
-    width: 100%;
+    width: 80%;
     padding: 1.4em;
     color: black;
     font-size: 17px;
@@ -202,6 +199,8 @@
     border-radius: .8rem;
     margin: 1rem 0;
     resize: none;
+    margin-left: 300px;
+
 }
 
 .footer{
