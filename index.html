@@ -14,8 +14,8 @@
 <a href="#" class="logo"><span>Josh</span> Raymond</a>
 <nav class ="navbar">
 
-    <a href="#Home1" class="active">PORTFOLIO</a>
-    <a href="#About1" class="active">ABOUT</a>
+    <a href="#Home1" >PORTFOLIO</a>
+    <a href="#About1" >ABOUT</a>
     <a href="#Projects">PROJECTS</a>
     <a href="#contact1">CONTACT</a>
 </nav>
@@ -36,9 +36,7 @@
     </p><br>
 
 <div class="btn-box">
-
-
-<button class = "btn-1">DOWNLOAD RESUME/ CV</button>
+    <a href="JOSH RAYMOND Resume.pdf" download="Josh Raymond.pdf" class="btn-1">DOWNLOAD RESUME/CV</a>
 </div>
 
 <br>
@@ -68,42 +66,58 @@
     I’m constantly learning and improving my skills with the goal of becoming a professional backend engineer and contributing to impactful real-world solutions.
 </p>
 
-
 </div>
-
-
-
 
 </section>
 
-
+<section class="project" id="projects">
+    <div class="project-section">
+        <h2 class="project-title">MY <span>PROJECTS</span></h2>
+        
+        <div class="project-container">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <div class="project-number">01</div>
+                <h3>Nigeria Map Game</h3>
+                <p>An interactive geography game to learn Nigerian states and their locations.</p>
+                <a href="https://nigeriamapgamebyjosh.onrender.com/" target="_blank" class="project-btn">
+                    <i class="fas fa-play-circle"></i> Play Now
+                </a>
+            </div>
+            
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <div class="project-number">02</div>
+                <h3>ChemistryLab</h3>
+                <p>A virtual chemistry laboratory for conducting experiments and learning chemistry concepts.</p>
+                <a href="https://chemistry-app-drvf.onrender.com/" target="_blank" class="project-btn">
+                    <i class="fas fa-flask"></i> Try It Out
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+    
 <section class="contact-form" id="contact1">
 
 <h2 class="contact-me">CONTACT <span> ME </span></h2>
 
-<form action="#"> 
+<form action="https://formspree.io/f/mqezwwvw" method="POST">
 <div class="input-box">
-    <input type="text" name="Name" placeholder="Your Name">
-    <input type="text" placeholder="Phone number">
-
-
-
-    <input type="email" placeholder="Email">
-    <input type="text" placeholder="subject">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="text" placeholder="Phone number" required>
+    <input type="email" placeholder="Email" required>
+    <input type="text" placeholder="subject" required>
 </div>
-<textarea name="" cols="30" rows="10" placeholder="Your name">
+<textarea name="" cols="30" rows="10" placeholder="Your name" required>
 
 </textarea>
 
 <input type="submit" value="Send message" class="btn-1">
 
-
-
 </form>
 
-
 </section>
-
 
 <footer class="footer">
     <div class="social">
