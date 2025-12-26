@@ -36,10 +36,20 @@
     learing, building real-world projects, and growing into a professional software developer and data scientist.  
     </p><br>
 
-<div class="btn-box">
-    <a href="JOSH RAYMOND Resume.pdf" download="Josh Raymond.pdf" class="btn-1">DOWNLOAD RESUME/CV</a>
-</div>
-
+    <button class="btn-1" onclick="downloadResumeWithProgress()">
+        <i class="fas fa-download"></i> DOWNLOAD RESUME/CV
+    </button>
+    
+    <!-- Download Progress Modal -->
+    <div id="downloadModal" class="download-modal">
+        <div class="download-modal-content">
+            <h3 id="downloadStatus">Preparing download...</h3>
+            <div class="progress-bar">
+                <div id="progressFill" class="progress-fill"></div>
+            </div>
+            <p id="downloadMessage">Please wait...</p>
+        </div>
+    </div>
 <br>
 
 <div class="img-box">
@@ -145,5 +155,81 @@
 <p class="copyright">@ 2025 JOSH </p>
 </footer>
 
+<script>
+    function downloadResumeWithProgress() {
+        const modal = document.getElementById('downloadModal');
+        const status = document.getElementById('downloadStatus');
+        const message = document.getElementById('downloadMessage');
+        const progressFill = document.getElementById('progressFill');
+        
+        // Show modal
+        modal.style.display = 'block';
+        
+        // Simulate progress
+        let progress = 0;
+        const interval = setInterval(() => {
+            progress += 10;
+            progressFill.style.width = progress + '%';
+            
+            if (progress === 30) {
+                status.textContent = 'Downloading...';
+                message.textContent = 'Your resume is being downloaded';
+            }
+            
+            if (progress === 100) {
+                clearInterval(interval);
+                
+                // Check if file exists
+                fetch('JOSH RAYMOND Resume.pdf', { method: 'HEAD' })
+                    .then(response => {
+                        if (response.ok) {
+                            // Start actual download
+                            const a = document.createElement('a');
+                            a.href = 'JOSH RAYMOND Resume.pdf';
+                            a.download = 'Josh Raymond Resume.pdf';
+                            document.body.appendChild(a);
+                            a.click();
+                            document.body.removeChild(a);
+                            
+                            status.textContent = '✓ Download Complete!';
+                            status.className = 'download-success';
+                            message.textContent = 'Check your downloads folder';
+                            
+                            setTimeout(() => {
+                                modal.style.display = 'none';
+                                progressFill.style.width = '0%';
+                                status.textContent = 'Preparing download...';
+                                status.className = '';
+                                message.textContent = 'Please wait...';
+                            }, 2000);
+                        } else {
+                            throw new Error('File not found');
+                        }
+                    })
+                    .catch(error => {
+                        status.textContent = '✗ Download Failed';
+                        status.className = 'download-error';
+                        message.textContent = 'File not found. Please contact support.';
+                        
+                        setTimeout(() => {
+                            modal.style.display = 'none';
+                            progressFill.style.width = '0%';
+                            status.textContent = 'Preparing download...';
+                            status.className = '';
+                            message.textContent = 'Please wait...';
+                        }, 3000);
+                    });
+            }
+        }, 200);
+    }
+    
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        const modal = document.getElementById('downloadModal');
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    }
+</script>
 </body>
 </html>
