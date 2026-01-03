@@ -180,12 +180,12 @@
                 clearInterval(interval);
                 
                 // Check if file exists
-                fetch('JOSH RAYMOND Resume.pdf', { method: 'HEAD' })
+                fetch('Josh.pdf', { method: 'HEAD' })
                     .then(response => {
                         if (response.ok) {
                             // Start actual download
                             const a = document.createElement('a');
-                            a.href = 'JOSH RAYMOND Resume.pdf';
+                            a.href = 'Josh.pdf';
                             a.download = 'Josh Raymond Resume.pdf';
                             document.body.appendChild(a);
                             a.click();
