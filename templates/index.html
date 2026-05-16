@@ -1,4 +1,15 @@
-/* ── Fonts ─────────────────────────────────────────── */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PORTFOLIO — Josh Raymond</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Fonts ─────────────────────────────────────────── */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap');
 
 /* ── Variables ─────────────────────────────────────── */
@@ -306,6 +317,7 @@ body::before {
   background: rgba(255,255,255,0.04); border: 1px solid var(--border);
   border-radius: 4px; color: var(--muted);
 }
+
 .project-btn {
   display: inline-flex; align-items: center; gap: 10px;
   padding: 12px 28px;
@@ -418,3 +430,303 @@ body::before {
   .project-title { font-size: 1.6rem; }
   .project-card { padding: 1.8rem; }
 }
+  </style>
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- Starfield -->
+  <canvas id="stars"></canvas>
+
+  <!-- ── Header ─────────────────────────────────── -->
+  <header class="header">
+    <a href="#" class="logo"><span>Josh</span> Raymond</a>
+    <nav class="navbar">
+      <a href="#Home1">PORTFOLIO</a>
+      <a href="#About1">ABOUT</a>
+      <a href="#Projects">PROJECTS</a>
+      <a href="#contact1">CONTACT</a>
+    </nav>
+    <a href="https://wa.me/2349139382808?text=Hi%20Joshua,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect!" class="contact-btn" target="_blank">
+      <i class="fab fa-whatsapp"></i> CONTACT ME
+    </a>
+  </header>
+
+  <!-- ── Home ───────────────────────────────────── -->
+  <section class="Home" id="Home1">
+    <div class="Home-context">
+
+      <div class="hero-badge">
+        <div class="badge-dot"></div>
+        <span class="badge-text">Backend Developer</span>
+      </div>
+
+      <h3 class="hero-hi">Hi 👋</h3>
+      <h1 class="hero-name">I'm <span>Josh Raymond</span></h1>
+      <p class="hero-desc">
+        Aspiring Python and backend developer with hands-on experience building web applications using Flask
+        and streamlit. Strong foundation in Python programming, database management, and problem-solving. Passionate about
+        learning, building real-world projects, and growing into a professional AI engineer.
+      </p>
+
+      <a href="{{ url_for('static', filename='files/Josh.pdf') }}" download class="btn-1">
+        <i class="fas fa-download"></i>
+        DOWNLOAD RESUME/CV
+
+      </a>
+
+      <div id="downloadModal" class="download-modal">
+        <div class="download-modal-content">
+          <h3 id="downloadStatus">Preparing download...</h3>
+          <div class="progress-bar"><div id="progressFill" class="progress-fill"></div></div>
+          <p id="downloadMessage">Please wait...</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="img-box float">
+      <div class="avatar-placeholder">JR</div>
+    </div>
+
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ── About ──────────────────────────────────── -->
+  <section class="about" id="About1">
+    <div class="about-content reveal">
+      <h2 class="heading">ABOUT<span> ME</span></h2>
+      <h3>PYTHON AND FLASK DEVELOPER</h3>
+      <p>
+        I am a growing software developer and aspiring AI Engineer with experience in Python, Flask, HTML, CSS, and JavaScript. I enjoy building practical applications that solve real problems, including web platforms, APIs, automation tools, and educational projects. My focus is on continuously improving my technical skills while creating projects that combine functionality with clean user experiences.
+        I am passionate about learning emerging technologies and expanding my knowledge in backend development, artificial intelligence, and software engineering. I enjoy turning ideas into working solutions and challenging myself through hands-on projects that strengthen both my problem-solving and development abilities.
+        Currently, I am focused on improving my expertise, building impactful projects, and exploring opportunities to gain real-world experience while growing as a developer.
+      </p>
+      <div class="stat-row">
+        <div class="stat"><div class="stat-num">2+</div><div class="stat-label">Projects Live</div></div>
+        <div class="stat"><div class="stat-num">Lagos</div><div class="stat-label">Based In</div></div>
+        <div class="stat"><div class="stat-num">AI Engineer</div><div class="stat-label">End Goal</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Skills ─────────────────────────────────── -->
+  <section class="skills-section" id="skills">
+    <div class="section-header reveal">
+      <div class="section-label">// my stack</div>
+      <h2 class="section-title">Skills &amp; <span>Technologies</span></h2>
+    </div>
+    <div class="skills-grid reveal">
+      {% for skill in skills %}
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">{{ skill.name }}</span>
+          <span class="skill-pct">{{ skill.level }}%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-fill" data-pct="{{ skill.level }}"></div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- ── Projects ───────────────────────────────── -->
+  <section class="project" id="Projects">
+    <div class="project-section">
+      <h2 class="project-title reveal">MY <span>PROJECTS</span></h2>
+      <div class="project-container-reveal">
+        {% for project in projects %}
+        <div class="project-card">
+          <div class="project-number">0{{ loop.index }}</div>
+          <i class="{{ project.icon }} card-icon"></i>
+          <h1 class="card-title">{{ project.name }}</h1>
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+          <div class="card-tech">
+            {% for tech in project.technologies %}
+            <span class="tech-tag">{{ tech }}</span>
+            {% endfor %}
+          </div>
+          <a href="{{ project.link }}" class="project-btn" target="_blank">View Project</a>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ────────────────────────────────── -->
+  <section class="contact-form" id="contact1">
+    <h2 class="contact-me reveal">CONTACT <span>ME</span></h2>
+    <form action="https://formspree.io/f/mqezwwvw" method="POST" class="reveal">
+      <div class="input-box">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="text" placeholder="Phone number" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="subject" placeholder="Subject" required />
+      </div>
+      <textarea name="message" cols="30" rows="10" placeholder="Your message..." required></textarea>
+      <input type="submit" value="Send Message" class="btn-1" />
+    </form>
+  </section>
+
+  <!-- ── Footer ────────────────────────────────── -->
+  <footer class="footer">
+    <div class="social">
+      <a href="https://www.facebook.com/Raymond Joshua" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://t.me/RayehikMEMES" target="_blank"><i class="fab fa-telegram"></i></a>
+      <a href="https://wa.me/2349139382808"><i class="fab fa-whatsapp"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/joshray7" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <ul class="list">
+      <li><a href="#Home1">Home</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="#About1">About Me</a></li>
+      <li><a href="#contact1">Contact</a></li>
+      <li><a href="{{ url_for('static', filename='files/Josh.pdf') }}" download>Resume</a></li>
+    </ul>
+    <p class="copyright">© 2025 JOSH RAYMOND</p>
+  </footer>
+
+  <script>
+    // ── Starfield ───────────────────────────────────────────
+    const canvas = document.getElementById('stars');
+    const ctx = canvas.getContext('2d');
+    let stars = [], W, H;
+
+    function resize() { W = canvas.width = window.innerWidth; H = canvas.height = window.innerHeight; }
+    resize();
+    window.addEventListener('resize', resize);
+
+    function initStars() {
+    stars = Array.from({ length: 200 }, () => ({
+        x: Math.random() * W, y: Math.random() * H,
+        r: Math.random() * 1.2 + 0.2,
+        speed: Math.random() * 0.25 + 0.04,
+        opacity: Math.random() * 0.8 + 0.2,
+        twinkle: Math.random() * Math.PI * 2,
+    }));
+    }
+    initStars();
+
+    function drawStars() {
+    ctx.clearRect(0, 0, W, H);
+    stars.forEach(s => {
+        s.twinkle += 0.013;
+        s.y += s.speed;
+        if (s.y > H) { s.y = 0; s.x = Math.random() * W; }
+        const alpha = s.opacity * (0.6 + 0.4 * Math.sin(s.twinkle));
+        ctx.beginPath(); ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(255,255,255,${alpha})`; ctx.fill();
+    });
+    requestAnimationFrame(drawStars);
+    }
+    requestAnimationFrame(drawStars);
+
+    // ── Custom cursor ───────────────────────────────────────
+    const dot  = document.querySelector('.cursor-dot');
+    const ring = document.querySelector('.cursor-ring');
+    let mx = 0, my = 0, rx = 0, ry = 0;
+
+    document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+
+    function animateCursor() {
+    dot.style.left  = mx + 'px'; dot.style.top  = my + 'px';
+    rx += (mx - rx) * 0.12;     ry += (my - ry) * 0.12;
+    ring.style.left = rx + 'px'; ring.style.top = ry + 'px';
+    requestAnimationFrame(animateCursor);
+    }
+    animateCursor();
+
+    document.querySelectorAll('a, button, .project-card').forEach(el => {
+    el.addEventListener('mouseenter', () => { ring.style.width = ring.style.height = '48px'; ring.style.borderColor = 'rgba(0,212,255,0.9)'; });
+    el.addEventListener('mouseleave', () => { ring.style.width = ring.style.height = '32px'; ring.style.borderColor = 'rgba(0,212,255,0.5)'; });
+    });
+
+    // ── Scroll reveal ──────────────────────────────────────
+    const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // ── Skill bar animation ────────────────────────────────
+    const skillObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+        if (e.isIntersecting) {
+        e.target.querySelectorAll('.skill-fill[data-pct]').forEach((bar, i) => {
+            setTimeout(() => { bar.style.width = bar.dataset.pct + '%'; }, i * 120);
+        });
+        skillObs.disconnect();
+        }
+    });
+    }, { threshold: 0.2 });
+    const skillSection = document.querySelector('#skills');
+    if (skillSection) skillObs.observe(skillSection);
+
+    // ── Active nav highlight ───────────────────────────────
+    const sections = document.querySelectorAll('section[id], .Home[id], .about[id], .project[id], .contact-form[id]');
+    const navLinks  = document.querySelectorAll('.navbar a');
+    window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 140) current = s.id; });
+    navLinks.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+    });
+    }, { passive: true });
+
+    // ── Typed text in hero badge ───────────────────────────
+    const badge = document.querySelector('.badge-text');
+    if (badge) {
+    const words = ['Backend Developer', 'Flask Developer', 'AI Enthusiast', 'Python Engineer'];
+    let wi = 0, ci = 0, deleting = false;
+    function type() {
+        const word = words[wi];
+        if (!deleting) {
+        badge.textContent = word.slice(0, ++ci);
+        if (ci === word.length) { deleting = true; setTimeout(type, 1600); return; }
+        } else {
+        badge.textContent = word.slice(0, --ci);
+        if (ci === 0) { deleting = false; wi = (wi + 1) % words.length; }
+        }
+        setTimeout(type, deleting ? 45 : 85);
+    }
+    type();
+    }
+  </script>
+  <script>
+    function downloadResumeWithProgress() {
+      const modal = document.getElementById('downloadModal');
+      const status = document.getElementById('downloadStatus');
+      const message = document.getElementById('downloadMessage');
+      const progressFill = document.getElementById('progressFill');
+      modal.style.display = 'block';
+      let progress = 0;
+      const interval = setInterval(() => {
+        progress += 10;
+        progressFill.style.width = progress + '%';
+        if (progress === 30) { status.textContent = 'Downloading...'; message.textContent = 'Your resume is being downloaded'; }
+        if (progress === 100) {
+          clearInterval(interval);
+          fetch('Josh.pdf', { method: 'HEAD' })
+            .then(r => { if (r.ok) {
+                const a = document.createElement('a'); a.href = 'Josh.pdf'; a.download = 'Josh Raymond Resume.pdf';
+                document.body.appendChild(a); a.click(); document.body.removeChild(a);
+                status.textContent = '✓ Download Complete!'; status.className = 'download-success'; message.textContent = 'Check your downloads folder';
+              } else throw new Error(); })
+            .catch(() => { status.textContent = '✗ Download Failed'; status.className = 'download-error'; message.textContent = 'File not found. Please contact support.'; })
+            .finally(() => { setTimeout(() => { modal.style.display='none'; progressFill.style.width='0%'; status.textContent='Preparing download...'; status.className=''; message.textContent='Please wait...'; }, 2500); });
+        }
+      }, 200);
+    }
+    window.onclick = e => { if (e.target === document.getElementById('downloadModal')) document.getElementById('downloadModal').style.display = 'none'; };
+  </script>
+</body>
+</html>
