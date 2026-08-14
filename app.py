@@ -13,6 +13,7 @@ skills = [
 projects = [
     {"name": "Nigeria Map Game", "description": "An interactive game to help users learn about Nigerian states and capitals. It provides a fun and engaging way to test one's knowledge of Nigeria's geography.", "link": "https://nigeriamapgamebyjosh.onrender.com/"},
     {"name": "ChemistryLab", "description": "A web application for chemistry students to visualize molecular structures. It allows users to explore and interact with various molecular models of chemical compounds.", "link": "https://chemistrylab.onrender.com"},
+    {"name": "JobWave", "description": "A job search platform that connects job seekers with potential employers. It provides a user-friendly interface for browsing job listings and submitting applications.", "link": "https://jobwave-by-josh.onrender.com"},
 ]
 
 @app.route("/")
